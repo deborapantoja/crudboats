@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CADASTRO - BARCOS</title>
+</head>
+
+<body>
+    <div>
+        <h1>Cadastrar Barcos</h1>
+        <fieldset center id="barcos">
+            <legend>Barcos</legend>
+            <form method="POST" action="insertBarco.php">
+                <table border="1">
+                    <tr>
+                        <td><label for="nm">Nome:</label></td>
+                        <td><input type="text" name="nome" id="nm" placeholder="Digite o nome do barco" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="prc">Preço:</label></td>
+                        <td><input type="number" name="preco" id="prc" placeholder="Digite o preço" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="cdd">Cidade:</label></td>
+                        <td><input type="text" name="cidade" id="cdd" placeholder="Digite a cidade" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="tam">Tamanho:</label></td>
+                        <td><input type="number" name="tamanho" id="tam"
+                                placeholder="Digite o tamanho, em metros quadrados, do braco" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dscc">Descrição:</label></td>
+                        <td><input type="text" name="descricao" id="dscc" placeholder="Digite uma descrição do barco" />
+                        </td>
+                    </tr>
+                    <td>
+                    <td><input type="submit" value="Cadastrar" /></td>
+                    </td>
+                </table>
+            </form>
+        </fieldset>
+    </div>
+</body>
+
+</html>
